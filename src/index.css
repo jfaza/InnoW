@@ -1,0 +1,16 @@
+/* Make the app fill the viewport and remove the starter constraints */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: none;   /* remove the 1280px cap from Vite template */
+  padding: 0;        /* remove default 2rem padding */
+  display: block;
+}
+
+/* optional: a neutral body background so your .page gradient is the one you see */
+body { background: #0a0f14; }
